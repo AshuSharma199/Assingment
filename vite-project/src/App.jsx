@@ -28,6 +28,18 @@ function App() {
       date: "August 26, 2025",
       link: "#"
     },
+    {
+      img: "https://hcltech.imgix.net/sites/default/files/inline-images/amitabh-kant.webp",
+      title: "HCLTech partners with Thought Machine to modernise banks with AI and cloud technology for better scalability",
+      date: "August 26, 2025",
+      link: "#"
+    },
+    {
+      img: "https://hcltech.imgix.net/sites/default/files/inline-images/enterprise-imperative.webp",
+      title: "Unlike traditional AI that simply responds to queries, Agentic AI",
+      date: "August 26, 2025",
+      link: "#"
+    },
   ];
 
   const scrollRef = useRef(null);
@@ -125,13 +137,14 @@ function App() {
           onClick={scrollLeft}
           className='bg-gray-200 text-gray-700 p-2 rounded-full shadow hover:bg-gray-300'
         >
-          left
+<i class="fa-solid fa-arrow-left"></i>
         </button>
         <button
           onClick={scrollRight}
           className='bg-gray-200 text-gray-700 p-2 rounded-full shadow hover:bg-gray-300'
         >
-          Right
+<i class="fa-solid fa-arrow-right"></i>
+
         </button>
       </div>
     </div>
